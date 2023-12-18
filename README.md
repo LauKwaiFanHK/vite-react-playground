@@ -1,8 +1,7 @@
-# React + Vite
+# A React app using Vite
+This is my playground for frontend development.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Currently the app:
+- uses Sass (Syntactically Awesome Style Sheets) as the preprocessor scripting langauge to extend CSS (Cascading Style Sheets). .sass files are compiled into standard CSS files in runtime that can be understood by web browsers.
+- configures pre-commit hook using Husky.
+- uses carbon/react UI library. 
